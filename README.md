@@ -6,10 +6,13 @@
 /search -> Search
 
 
-/users/edit -> Edit user
-/users/delete -> Delete user
+/users/:id -> See user
+/useres/logout -> Logout
+/users/edit -> Edit My Profile
+/users/delete -> Delete My Profile
 
 
-/videos/watch -> Watch Video
-/videos/edit -> Edit Video
-/videos/delete -> Delete Video
+/videos/:id -> Watch a Video
+/videos/:id/edit -> Edit a Video
+/videos/:id/delete -> Delete a Video
+/videos/upload -> Upload a Video

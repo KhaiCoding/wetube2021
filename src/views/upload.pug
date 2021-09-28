@@ -1,0 +1,8 @@
+extends layout
+include mixins/video
+
+block content
+    h3  This is upload page.
+    form(method="POST")
+        input(placeholder="Title", required, type="text", name ="title")
+        input(type="submit", value="Upload Video")
